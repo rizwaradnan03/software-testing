@@ -1,0 +1,13 @@
+###
+GET http://localhost:8081/users
+
+###
+POST http://localhost:8081/ganteng
+Content-Type: "application/json"
+
+{
+    "id": 3,
+    "name": "yanto",
+    "age": 20,
+    "email": "yanto@gmail.com"
+}

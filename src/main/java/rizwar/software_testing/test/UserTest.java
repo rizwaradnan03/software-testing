@@ -8,7 +8,6 @@ import rizwar.software_testing.api.model.User;
 
 // import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 // @SpringBootTest
 public class UserTest {
     private List<User> users;
