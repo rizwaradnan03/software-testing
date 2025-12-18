@@ -14,21 +14,4 @@ public class UserTest {
         assertEquals("Rizwar", user.getName());
         assertEquals(20, user.getAge());
     }
-
-    // @Test
-    // void sortByAgeAsc_shouldSortCorrectly() {
-    // UserService service = new UserService();
-
-    // List<User> users = List.of(
-    // new User("Budi", 30),
-    // new User("Andi", 20),
-    // new User("Caca", 25)
-    // );
-
-    // List<User> result = service.sortByAgeAsc(users);
-
-    // assertEquals(20, result.get(0).getAge());
-    // assertEquals(25, result.get(1).getAge());
-    // assertEquals(30, result.get(2).getAge());
-    // }
 }
